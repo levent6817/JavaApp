@@ -9,6 +9,7 @@ pipeline {
                     sh 'java ./src/Hello.java'
                 }else{
                     bat 'java ./src/Hello.java'
+
                 }
                 }
             }
